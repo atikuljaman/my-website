@@ -1,0 +1,94 @@
+.contact-section{
+    margin-top: 100px;
+}
+.contact-container{
+    padding: 80px 0;
+}
+.contact-div{
+    background-color: #252425;
+    width: 380px;
+    height: 200px;
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    margin: 0% auto;
+}
+.contact-icon-container{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #161616;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon{
+    color: #4bffa5;
+    font-size: 30px;
+}
+.service-card-title{
+    color: white;
+    margin: 15px 0;
+}
+.service-card-desc{
+    color: #e2e2e2;
+}
+.form > input{
+    background-color: transparent;
+    border: 1px solid #a5a5a5af;
+    margin-top: 40px;
+    padding: 15px 20px;
+    color: white;
+    outline-color: #4bffa5;
+}
+.form > div > input{
+    background-color: transparent;
+    border: 1px solid #a5a5a5af;
+    padding: 15px 20px;
+    color: white;
+    outline-color: #4bffa5;
+}
+
+.input-email{
+    margin-left: 40px;
+}
+.form > textarea{
+    background-color: transparent;
+    border: 1px solid #a5a5a5af;
+    margin-top: 40px;
+    padding: 20px;
+}
+.form > button{
+    background-color: #4bffa5;
+    border: none;
+    color: white;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    margin: 30px 0;
+    transition: ease-in-out 0.3s;
+}
+.form > button:hover{
+    background-color: #252425;
+    color: #4bffa5;
+    transform: scale(0.9);
+}
+
+/* USING MEDIA QUERY FOR RESPONSIVE */
+@media only screen and (max-width: 720px){
+  .form > div {
+   flex-direction: column;
+}
+.input-email{
+    margin-left: 0;
+    margin-top: 40px;
+}
+}

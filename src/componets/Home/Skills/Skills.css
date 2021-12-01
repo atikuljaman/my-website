@@ -1,0 +1,70 @@
+.skills-section{
+    padding: 140px 0 50px 0;
+}
+.title{
+    color: white;
+    border-bottom: 3px solid #4bffa5;
+    display: inline-block;
+    margin: auto;
+}
+.skills-section-container{
+    margin-top: 80px;
+}
+.progressbar-container{
+    position: relative;
+    border-left: 3px solid white;
+    padding: 7px 20px 5px 25px;
+    /* margin-top: 70px; */
+    margin-left: 20px;
+}
+.progressbar-container::before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #4bffa5;
+    border: 2px solid #e2e2e2;
+    position: absolute;
+    top: 22px;
+    left: -10px;
+}
+.progressbar-container > h5{
+    color: #4bffa5;
+    margin: 0%;
+    margin-top: 17px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.arrow-icon{
+    transform: rotate(20deg);
+}
+.progressbar-sub-container{
+    width: 60px;
+    height: 60px;
+}
+.progressbar-sub-container > h5{
+    padding-top: 13px;
+    text-align: center;
+    font-size: 14px;
+    color: #e2e2e2;
+}
+
+/* USING MEDIA QUERY FOR RESPONSIVE */
+@media only screen and (max-width: 720px){
+  .progressbar{
+      flex-direction: column;
+  }
+  .progressbar-container{
+    justify-content: space-around;
+}
+.progressbar-container::before {
+    top: 34px;
+}
+  .progressbar-sub-container{
+    width: 80px;
+    height: 80px;
+}
+.progressbar-container > h5{
+    margin-top: 28px;
+}
+}

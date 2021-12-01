@@ -1,0 +1,37 @@
+.footer-section{
+    padding: 80px 0 40px 0;
+}
+.footer-title{
+    color: white;
+}
+.footer-title > span{
+    color: #4bffa5;
+}
+.footer-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #4bffa5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+}
+.footer-icon > p{
+    font-size: 17px;
+    margin: 0%;
+}
+.footer-hr{
+    color: #a5a5a5af;
+}
+
+/* USING MEDIA QUERY FOR RESPONSIVE */
+@media only screen and (max-width: 720px){
+   .footer-container{
+       flex-direction: column;
+   }
+   .footer-container > div{
+       margin-top: 20px;
+   }
+}

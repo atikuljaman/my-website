@@ -1,0 +1,28 @@
+.funfact-section{
+    margin-top: 100px;
+}
+.funfact-container{
+    margin-top: 70px;
+}
+.funfact-div{
+    width: 264px;
+    height: 107px;
+    border-radius: 5px;
+    background-color: #252425;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+transition: ease-in-out 0.3s;
+}
+.funfact-div:hover{
+    transform: scale(0.9);
+}
+.funfact-div > h1{
+    color: white;
+    margin: 10px 0;
+}
+.funfact-div > h6{
+    color: #4bffa5;
+}

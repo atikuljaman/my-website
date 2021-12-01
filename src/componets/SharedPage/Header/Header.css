@@ -1,0 +1,13 @@
+.navbar-container{
+    padding-top: 30px;
+    z-index: 2;
+}
+.logo{
+    font-family: 'Lobster', cursive;
+    color: #ddd !important;
+}
+.nav-link{
+    color: #bbb !important;
+    margin: 0 16px;
+    font-weight: 600;
+}
